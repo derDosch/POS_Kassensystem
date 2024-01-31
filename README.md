@@ -1,3 +1,80 @@
+
+# pos_point_of_sale_system
+
+Point of Sale (POS) System App
+
+The Point of Sale System App is a Flutter application designed as a foundation for managing a Point of Sale system. The app allows users to manage product information, make purchases, and edit the shopping cart.
+
+## Features
+### Product Management
+- Add, edit, and delete products.
+- Each product includes information such as name, price, availability in stock, unit, currency, and an optional image.
+
+  
+
+### Shopping Cart
+- Add products from the product list to the shopping cart.
+- The cart displays a preview of the added products with their prices and allows users to increase or decrease the quantity of items.
+
+### Payment Processing
+- Enter the total amount and complete the payment.
+- The amount to be paid is calculated and displayed.
+- Enter the amount of money and receive information about the change or the remaining amount.
+
+## Architecture and Used Packages
+- Flutter for cross-platform development.
+- Architecture based on the Provider package for state management.
+- SQFLite package for local storage of product and shopping cart information.
+- SharedPreferences for storing product information.
+
+## Usage
+### Setting up the Development Environment
+1. Install Flutter: See Getting Started.
+2. Clone the repository.
+3. Run "flutter pub get" in the terminal to download all necessary dependencies.
+
+## Authors
+- Philip Dosch
+
+## License
+- This project is licensed under the MIT License. Details can be found in the LICENSE file.
+
+## Getting Started
+### Install Android Studio and Open Flutter Project
+
+#### Installing Android Studio
+1. Download Android Studio from the official website.
+2. Installation:
+   - Windows: Double-click the downloaded file and follow the instructions.
+   - macOS: Drag the downloaded Android Studio program into the "Applications" folder.
+   - Linux: Unpack the archive and follow the installation instructions for your OS.
+
+#### Installing an Android version for simulation
+1. Open Android Studio and click on "Configure" > "AVD Manager" in the toolbar.
+2. Click "Create Virtual Device," select a device (e.g., Pixel 3), and click "Next."
+3. Choose a system image version, download it, and configure the virtual device.
+4. Click "Finish" to complete the installation.
+
+#### Opening Flutter Project in Android Studio
+1. Launch Android Studio.
+2. Install Flutter plugin (if not already installed): Go to "File" > "Settings" > "Plugins," search for "Flutter," and install the plugin.
+3. Go to "File" > "Open" and select the folder of your Flutter project.
+4. Click the green "Play" button to start the project.
+
+### Alternative IDEs - Visual Studio Code
+1. Launch Visual Studio Code.
+2. Install Flutter plugin: Go to "Extensions" (or press Ctrl + Shift + X), search for "Flutter," and install the plugin.
+3. Go to "File" > "Open Folder" and select the folder of your Flutter project.
+4. Use the command palette (Ctrl + Shift + P) and type "Flutter: Run" to start the project.
+
+
+
+
+
+
+
+
+
 # pos_kassensystem
 
 Kassensystem-App
