@@ -10,16 +10,23 @@ The Point of Sale System App is a Flutter application designed as a foundation f
 - Add, edit, and delete products.
 - Each product includes information such as name, price, availability in stock, unit, currency, and an optional image.
 
-  
+![grafik](https://github.com/derDosch/POS_Kassensystem/assets/126384486/62f3a878-6301-442a-bd2c-4fb49bba95e9)
+
 
 ### Shopping Cart
 - Add products from the product list to the shopping cart.
 - The cart displays a preview of the added products with their prices and allows users to increase or decrease the quantity of items.
 
+![grafik](https://github.com/derDosch/POS_Kassensystem/assets/126384486/2ccea3d4-0bd2-4ca7-9b4c-293b87a46c85)
+
+
 ### Payment Processing
 - Enter the total amount and complete the payment.
 - The amount to be paid is calculated and displayed.
 - Enter the amount of money and receive information about the change or the remaining amount.
+
+  ![grafik](https://github.com/derDosch/POS_Kassensystem/assets/126384486/6115b88c-7492-4721-8dd3-46853cb27521)
+
 
 ## Architecture and Used Packages
 - Flutter for cross-platform development.
